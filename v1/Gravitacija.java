@@ -8,5 +8,9 @@ public class Gravitacija {
 		double M = 5.972e24;
 		double r = 6.371e6;
 		return (C * M) / Math.pow(r + visina, 2.0)
+		
+	public static void izpis(double visina){
+		System.out.println(visina);
+		System.out.println(izracunGravitacije(visina));
 	}
 }
