@@ -6,7 +6,7 @@ public class Gravitacija {
 		izpis(sc.nextDouble());
 	}
 	
-	public static double izracunGravitecije(double visina) {
+	public static double izracunGravitacije(double visina) {
 		double C = 6.67e-11;
 		double M = 5.972e24;
 		double r = 6.371e6;
